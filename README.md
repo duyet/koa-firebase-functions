@@ -21,8 +21,8 @@ app.use(async ctx => {
 
 exports.api = functions.https.onRequest(koaFirebase(app));
 
-# Visit: https://us-central1-MY_PROJECT.cloudfunctions.net/api
+// Visit https://us-central1-MY_PROJECT.cloudfunctions.net/api
 ```
 
-# LICENSE
+# License
 MIT
