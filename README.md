@@ -15,7 +15,14 @@ const koaFirebase = require('koa-firebase-functions');
 const koa = require('koa')
       , app = koa.app();
 
-...
+app.use(async ctx => {
+  ctx.body = 'Hello World';
+});
 
 exports.api = functions.https.onRequest(koaFirebase(app));
+
+# Visit: https://us-central1-MY_PROJECT.cloudfunctions.net/api
 ```
+
+# LICENSE
+MIT
