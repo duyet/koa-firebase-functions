@@ -1,5 +1,5 @@
 {
-  "name": "koa-firebase-functions",
+  "name": "@duyetdev/koa-firebase-functions",
   "version": "1.0.1",
   "description": "Wrapper for Koajs in Firebase functions",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/duyetdev/koa-firebase-functions/issues"
   },
-  "homepage": "https://github.com/duyetdev/koa-firebase-functions#readme"
+  "homepage": "https://github.com/duyetdev/koa-firebase-functions#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
